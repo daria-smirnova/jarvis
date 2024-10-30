@@ -16,7 +16,7 @@ from flask_cors import CORS, cross_origin
 Model_Server = "http://localhost:8000"  # URL for local model server
 HUGGINGFACE_HEADERS = {"Authorization": "Bearer YOUR_HUGGINGFACE_TOKEN"}
 PROXY = {}
-API_KEY = "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"
+API_KEY = ""
 API_TYPE = "huggingface"
 API_ENDPOINT = "your_api_endpoint"
 inference_mode = "local"  # or "huggingface"
